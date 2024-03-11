@@ -1,0 +1,31 @@
+public class Main {
+    public static void main(String[] args) {
+        int A = 20;
+        int B = 7;
+        int C = 12;
+
+        // a. M = A + B * C
+        int M_a = A + B * C;
+        System.out.println("a. M = " + M_a);
+
+        // b. M = A - B - C
+        int M_b = A - B - C;
+        System.out.println("b. M = " + M_b);
+
+        // c. M = B / A * C
+        double M_c = (double) B / A * C;
+        System.out.println("c. M = " + M_c);
+
+        // d. M = A + B mod C
+        int M_d = A + B % C;
+        System.out.println("d. M = " + M_d);
+
+        // e. M = A^3 / 25 * C
+        double M_e = Math.pow(A, 3) / 25 * C;
+        System.out.println("e. M = " + M_e);
+
+        // f. M = A + A * B/C
+        double M_f = A + A * (double) B / C;
+        System.out.println("f. M = " + M_f);
+    }
+}
