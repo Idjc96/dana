@@ -1,0 +1,23 @@
+public class ejercicio2 {
+        public static void main(String[] args) {
+            // Expresiones a evaluar
+            int resultadoA = 2 + 8 * 9;
+            int resultadoB = 15 + 5 * 9 + 3 * 2;
+            int resultadoC = 6 * 3 % 14 * 8 + 3;
+            int resultadoD = 10 * (7 - 5) - 43 % 7 * 3 + 5;
+            int resultadoE = 21 * 8 / 4 + (17 - 6) * 9 * 5;
+            int resultadoF = -22 + 15 * 2 + 28 * 6;
+            int resultadoG = (int) ((Math.pow(9, 3) + 10) * (84 - (21 * 2)) * 3);
+            int resultadoH = 8 + (int) (Math.pow((3 - 2) - (4 * 6), 2));
+
+            // Mostrar resultados
+            System.out.println("Resultado A: " + resultadoA);
+            System.out.println("Resultado B: " + resultadoB);
+            System.out.println("Resultado C: " + resultadoC);
+            System.out.println("Resultado D: " + resultadoD);
+            System.out.println("Resultado E: " + resultadoE);
+            System.out.println("Resultado F: " + resultadoF);
+            System.out.println("Resultado G: " + resultadoG);
+            System.out.println("Resultado H: " + resultadoH);
+        }
+    }
